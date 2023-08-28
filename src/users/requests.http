@@ -1,0 +1,14 @@
+##Create User
+
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+
+{
+    "email" : "asdasdasd@gmail.com",
+    "password" : "adsasdasdasdd"
+}
+
+##Find particular User
+
+GET https://localhost:3000/auth/1
